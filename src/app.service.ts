@@ -1,8 +1,11 @@
 import { Injectable } from '@nestjs/common';
 
+import IQuote from './interface';
+import quotes from './db';
+
 @Injectable()
 export class AppService {
-  getQuote(): string {
-    return 'Если тебе тяжело, значит ты поднимаешься в гору. Если тебе легко, значит ты летишь в пропасть.';
+  getQuote(): IQuote {
+    return quotes[Math.floor(Math.random() * quotes.length)];
   }
 }
