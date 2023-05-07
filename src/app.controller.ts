@@ -10,4 +10,9 @@ export class AppController {
   getQuote(): IQuote {
     return this.appService.getQuote();
   }
+
+  @Get('/quotes')
+  getAllQuotes(): IQuote[] {
+    return this.appService.getAllQuotes();
+  }
 }

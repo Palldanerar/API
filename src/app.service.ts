@@ -8,4 +8,8 @@ export class AppService {
   getQuote(): IQuote {
     return quotes[Math.floor(Math.random() * quotes.length)];
   }
+
+  getAllQuotes(): IQuote[] {
+    return quotes;
+  }
 }
