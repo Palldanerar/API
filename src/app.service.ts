@@ -12,4 +12,8 @@ export class AppService {
   getAllQuotes(): IQuote[] {
     return quotes;
   }
+
+  getIdQuote(id: number): IQuote {
+    return quotes.find((item) => item.id === id);
+  }
 }

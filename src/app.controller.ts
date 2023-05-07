@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
 import { AppService } from './app.service';
 import IQuote from './interface';
 
@@ -14,5 +14,10 @@ export class AppController {
   @Get('/quotes')
   getAllQuotes(): IQuote[] {
     return this.appService.getAllQuotes();
+  }
+
+  @Get('/quote/:id')
+  getIdQuote(@Param('id', ParseIntPipe) id: number): IQuote {
+    return this.appService.getIdQuote(id);
   }
 }
