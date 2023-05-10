@@ -341,6 +341,201 @@ const quotes: IQuote[] = [
     title: 'Не так уж сложно изменить общество – сложно изменить себя.',
     author: 'Нельсон Мандела',
   },
+  {
+    id: 63,
+    title: '',
+    author: '',
+  },
+  {
+    id: 64,
+    title: '',
+    author: '',
+  },
+  {
+    id: 65,
+    title: '',
+    author: '',
+  },
+  {
+    id: 66,
+    title: '',
+    author: '',
+  },
+  {
+    id: 67,
+    title: '',
+    author: '',
+  },
+  {
+    id: 68,
+    title: '',
+    author: '',
+  },
+  {
+    id: 69,
+    title: '',
+    author: '',
+  },
+  {
+    id: 70,
+    title: '',
+    author: '',
+  },
+  {
+    id: 70,
+    title: '',
+    author: '',
+  },
+  {
+    id: 71,
+    title: '',
+    author: '',
+  },
+  {
+    id: 72,
+    title: '',
+    author: '',
+  },
+  {
+    id: 73,
+    title: '',
+    author: '',
+  },
+  {
+    id: 74,
+    title: '',
+    author: '',
+  },
+  {
+    id: 75,
+    title: '',
+    author: '',
+  },
+  {
+    id: 76,
+    title: '',
+    author: '',
+  },
+  {
+    id: 77,
+    title: '',
+    author: '',
+  },
+  {
+    id: 78,
+    title: '',
+    author: '',
+  },
+  {
+    id: 79,
+    title: '',
+    author: '',
+  },
+  {
+    id: 80,
+    title: '',
+    author: '',
+  },
+  {
+    id: 81,
+    title: '',
+    author: '',
+  },
+  {
+    id: 82,
+    title: '',
+    author: '',
+  },
+  {
+    id: 83,
+    title: '',
+    author: '',
+  },
+  {
+    id: 84,
+    title: '',
+    author: '',
+  },
+  {
+    id: 85,
+    title: '',
+    author: '',
+  },
+  {
+    id: 86,
+    title: '',
+    author: '',
+  },
+  {
+    id: 87,
+    title: '',
+    author: '',
+  },
+  {
+    id: 88,
+    title: '',
+    author: '',
+  },
+  {
+    id: 89,
+    title: '',
+    author: '',
+  },
+  {
+    id: 90,
+    title: '',
+    author: '',
+  },
+  {
+    id: 91,
+    title: '',
+    author: '',
+  },
+  {
+    id: 92,
+    title: '',
+    author: '',
+  },
+  {
+    id: 93,
+    title: '',
+    author: '',
+  },
+  {
+    id: 94,
+    title: '',
+    author: '',
+  },
+  {
+    id: 95,
+    title: '',
+    author: '',
+  },
+  {
+    id: 96,
+    title: '',
+    author: '',
+  },
+  {
+    id: 97,
+    title: '',
+    author: '',
+  },
+  {
+    id: 98,
+    title: '',
+    author: '',
+  },
+  {
+    id: 99,
+    title: '',
+    author: '',
+  },
+  {
+    id: 100,
+    title: '',
+    author: '',
+  },
 ];
 
 export default quotes;
