@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import IQuote from './interface';
+import IQuote from './Interface/IQuote';
 import quotes from './db';
 
 @Injectable()

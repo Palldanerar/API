@@ -1,6 +1,6 @@
 import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
 import { AppService } from './app.service';
-import IQuote from './interface';
+import IQuote from './Interface/IQuote';
 
 @Controller('/api')
 export class AppController {
