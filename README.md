@@ -16,12 +16,12 @@
 {
     id: 1,
     ru_lang: {
-        title: 'Чем умнее человек, тем легче он признает себя дураком.', 
-        author: 'Альберт Эйнштейн'
+        title: 'Умный человек решает проблему. Мудрый человек избегает ее.',
+        author: 'Альберт Эйнштейн',
     },
     en_lang: {
-        title: 'The smarter a person is, the easier he recognizes himself as a fool.',
-        author: 'Albert Einstein'
-    }
+        title: 'A clever person solves a problem. A wise person avoids it.', 
+        author: 'Albert Einstein',
+    },
 }
 ```
