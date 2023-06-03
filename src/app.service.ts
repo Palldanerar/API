@@ -19,7 +19,7 @@ export class AppService {
     if (quote) {
       return quote;
     } else {
-      return { code: 1, title: 'Цитаты под данным id нет.' };
+      return { code: 1, title: 'Цитаты с данным id не существует.' };
     }
   }
 }

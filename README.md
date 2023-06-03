@@ -15,7 +15,7 @@
 ```JavaScript
 {
     id: 1,
-        ru_lang: {
+    ru_lang: {
         title: 'Умный человек решает проблему. Мудрый человек избегает ее.',
         author: 'Альберт Эйнштейн',
     },
@@ -23,5 +23,13 @@
         title: 'A clever person solves a problem. A wise person avoids it.',
         author: 'Albert Einstein',
     },
+},
+```
+# Пример ошибки
+
+```JavaScript
+{
+    code: 1;
+    title: "Цитаты с данным id не существует."
 },
 ```
