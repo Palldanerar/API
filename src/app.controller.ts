@@ -1,6 +1,7 @@
 import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
 import { AppService } from './app.service';
 import IQuote from './Interface/IQuote';
+import IError from './Interface/IError';
 
 @Controller('/api')
 export class AppController {
@@ -17,7 +18,7 @@ export class AppController {
   }
 
   @Get('/quote/:id')
-  getIdQuote(@Param('id', ParseIntPipe) id: number): IQuote {
+  getIdQuote(@Param('id', ParseIntPipe) id: number): IQuote | IError {
     return this.appService.getIdQuote(id);
   }
 }

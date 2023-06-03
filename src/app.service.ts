@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 
 import IQuote from './Interface/IQuote';
+import IError from './Interface/IError';
 import quotes from './db';
 
 @Injectable()
@@ -13,7 +14,12 @@ export class AppService {
     return quotes;
   }
 
-  getIdQuote(id: number): IQuote {
-    return quotes.find((item) => item.id === id);
+  getIdQuote(id: number): IQuote | IError {
+    const quote = quotes.find((item) => item.id === id);
+    if (quote) {
+      return quote;
+    } else {
+      return { code: 1, title: 'Цитаты под данным id нет.' };
+    }
   }
 }
