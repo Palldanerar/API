@@ -15,13 +15,13 @@
 ```JavaScript
 {
     id: 1,
-    ru_lang: {
+        ru_lang: {
         title: 'Умный человек решает проблему. Мудрый человек избегает ее.',
         author: 'Альберт Эйнштейн',
     },
     en_lang: {
-        title: 'A clever person solves a problem. A wise person avoids it.', 
+        title: 'A clever person solves a problem. A wise person avoids it.',
         author: 'Albert Einstein',
     },
-}
+},
 ```
