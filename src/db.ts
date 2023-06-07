@@ -998,5 +998,16 @@ const quotes: IQuote[] = [
       author: 'Simone Weil',
     },
   },
+  {
+    id: 86,
+    ru_lang: {
+      title: 'Вопрос не в том, кто мне разрешит, а в том, кто меня остановит.',
+      author: 'Айн Рэнд',
+    },
+    en_lang: {
+      title: 'The question is not who will let me, but who will stop me.',
+      author: 'Ayn Rand',
+    },
+  },
 ];
 export default quotes;
