@@ -1009,5 +1009,52 @@ const quotes: IQuote[] = [
       author: 'Ayn Rand',
     },
   },
+  {
+    id: 87,
+    ru_lang: {
+      title:
+        'Вчера я был умным, поэтому я хотел изменить мир. Сегодня я мудр, поэтому меняюсь.',
+      author: 'Руми',
+    },
+    en_lang: {
+      title:
+        'Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.',
+      author: 'Rumi',
+    },
+  },
+  {
+    id: 88,
+    ru_lang: {
+      title: 'Вера, которую не разделяет никто, называется шизофренией.',
+      author: 'Виктор Пелевин',
+    },
+    en_lang: {
+      title: 'A belief that no one shares is called schizophrenia.',
+      author: 'Victor Pelevin',
+    },
+  },
+  {
+    id: 89,
+    ru_lang: {
+      title: 'Музыка - это душа языка.',
+      author: 'Макс Гендель',
+    },
+    en_lang: {
+      title: 'Music is the soul of language.',
+      author: 'Max Handel',
+    },
+  },
+  {
+    id: 90,
+    ru_lang: {
+      title:
+        'Знание — это сокровище, которое всюду следует за тем, кто им обладает.',
+      author: 'Китайская пословица',
+    },
+    en_lang: {
+      title: 'Learning is a treasure that will follow its owner everywhere.',
+      author: 'Chinese Proverb',
+    },
+  },
 ];
 export default quotes;
