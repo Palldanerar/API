@@ -25,7 +25,7 @@
         title: 'A clever person solves a problem. A wise person avoids it.',
         author: 'Albert Einstein',
     },
-},
+}
 ```
 
 # Пример ошибки
@@ -34,5 +34,5 @@
 {
     code: 1;
     title: "Цитаты с данным id не существует."
-},
+}
 ```
