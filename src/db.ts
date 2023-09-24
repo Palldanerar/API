@@ -1056,5 +1056,137 @@ const quotes: IQuote[] = [
       author: 'Chinese Proverb',
     },
   },
+  {
+    id: 91,
+    ru_lang: {
+      title:
+        'Что разум человека может постигнуть и во что он может поверить, того он способен достичь.',
+      author: 'Наполеон Хилл',
+    },
+    en_lang: {
+      title: 'What the mind of man can comprehend and what he can believe, he can achieve.',
+      author: 'Napoleon Hill',
+    },
+  },
+  {
+    id: 92,
+    ru_lang: {
+      title:
+        'В моем словаре нет слова «невозможно».',
+      author: 'Наполеон Бонапарт',
+    },
+    en_lang: {
+      title: 'There is no word "impossible" in my dictionary.',
+      author: 'Napoleon Bonaparte',
+    },
+  },
+  {
+    id: 93,
+    ru_lang: {
+      title:
+        'Лучше быть уверенным в хорошем результате, чем надеяться на отличный.',
+      author: 'Уоррен Баффет',
+    },
+    en_lang: {
+      title: 'It is better to be sure of a good result than to hope for a great one.',
+      author: 'Warren Buffett',
+    },
+  },
+  {
+    id: 94,
+    ru_lang: {
+      title:
+        'Научитесь говорить “Я не знаю”, и это уже будет прогресс.',
+      author: 'Моисей Маймонид',
+    },
+    en_lang: {
+      title: 'Learn to say “I don’t know,” and that will be progress.',
+      author: 'Moses Maimonides',
+    },
+  },
+  {
+    id: 95,
+    ru_lang: {
+      title:
+        'Упади семь раз и восемь раз поднимись.',
+      author: 'Японская поговорка',
+    },
+    en_lang: {
+      title: 'Fall seven times and get up eight times.',
+      author: 'Japanese proverb',
+    },
+  },
+  {
+    id: 95,
+    ru_lang: {
+      title:
+        'Упади семь раз и восемь раз поднимись.',
+      author: 'Японская поговорка',
+    },
+    en_lang: {
+      title: 'Fall seven times and get up eight times.',
+      author: 'Japanese proverb',
+    },
+  },
+  {
+    id: 96,
+    ru_lang: {
+      title:
+        'Поражение – не поражение, если только вы не признаете его таковым в своем сознании.',
+      author: 'Брюс Ли',
+    },
+    en_lang: {
+      title: 'Defeat is not defeat unless you recognize it as such in your mind.',
+      author: 'Bruce Lee',
+    },
+  },
+  {
+    id: 97,
+    ru_lang: {
+      title:
+        'Не так важно то, что вы получите, достигнув своих целей, как то, чем вы станете, сделав это.',
+      author: 'Зиг Зиглар',
+    },
+    en_lang: {
+      title: 'What you get from achieving your goals is not as important as what you become when you do it.',
+      author: 'Zig Ziglar',
+    },
+  },
+  {
+    id: 98,
+    ru_lang: {
+      title:
+        'Мы в жизни любим только раз, а после ищем лишь похожих.',
+      author: 'Сергей Есенин',
+    },
+    en_lang: {
+      title: 'We love only once in life, and after that we only look for people who are similar.',
+      author: 'Sergey Yesenin',
+    },
+  },
+  {
+    id: 99,
+    ru_lang: {
+      title:
+        'Когда тебе тяжело, всегда напоминай себе о том, что если ты сдашься, лучше не станет.',
+      author: 'Майк Тайсон',
+    },
+    en_lang: {
+      title: "When you're having a hard time, always remind yourself that if you give up, it won't get better.",
+      author: 'Mike Tyson',
+    },
+  },
+  {
+    id: 100,
+    ru_lang: {
+      title:
+        'If a person gets up after falling, this is not physics. This is character.',
+      author: 'Майк Тайсон',
+    },
+    en_lang: {
+      title: 'We love only once in life, and after that we only look for people who are similar.',
+      author: 'Mike Tyson',
+    },
+  },
 ];
 export default quotes;
