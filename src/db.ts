@@ -1188,5 +1188,17 @@ const quotes: IQuote[] = [
       author: 'Mike Tyson',
     },
   },
+  {
+    id: 101,
+    ru_lang: {
+      title:
+        'Всем великим переменам предшествует хаос.',
+      author: 'Дипак Чопра',
+    },
+    en_lang: {
+      title: 'All great changes are preceded by chaos.',
+      author: 'Deepak Chopra',
+    },
+  },
 ];
 export default quotes;
